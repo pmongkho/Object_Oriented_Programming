@@ -1,5 +1,3 @@
-import java.util.*;
-
 //Project 02. Java Basic
 //        Project Objectives:
 //        This project was designed to reinforce programming concepts from Chapter 2. In this
@@ -94,6 +92,9 @@ public class PhongsavanhMongkhonvilayProject02 {
         int pennies = centsLeftOver/PENNIES;
         System.out.println(pennies+ " pennies");
 
+    }
+
+    public static class PhongsavanhMongkhonvilayProject04 {
     }
 }
 

@@ -24,7 +24,6 @@ public class PhongsavanhMongkhonvilayProject03 {
         boolean isGradeC = score < 80 && score >= 70;
         boolean isGradeB = score < 90 && score >= 80;
         boolean isGradeA = score <= 100 && score >= 90;
-
         //ternary to print output
         System.out.println("Your grade is: "
                 + ((isGradeF) ? "F"
@@ -54,7 +53,6 @@ public class PhongsavanhMongkhonvilayProject03 {
                 : (isGradeB) ? "B"
                 : (isGradeA) ? "A"
                 : "";
-
         return letter;
     }
 
@@ -66,11 +64,10 @@ public class PhongsavanhMongkhonvilayProject03 {
         while (true) {
             //prompt user
             System.out.print("Enter your score (0 -- 100), Enter a letter to quit: ");
-
             //create scanner object
             Scanner input = new Scanner(System.in);
-
             //catch statement if is not integer. to exit while loop and end program
+            
             boolean isNotIntegerEndProgram = !input.hasNextInt();
             if (isNotIntegerEndProgram) {
                 input.close();
