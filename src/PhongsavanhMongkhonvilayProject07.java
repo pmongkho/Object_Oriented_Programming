@@ -60,7 +60,7 @@ public class PhongsavanhMongkhonvilayProject07 {
             String answer = input.next();
 
             //if statement to terminate program
-            if(answer.equalsIgnoreCase("N")){
+            if("N".equalsIgnoreCase(answer)){
                 System.out.println("goodbye.");
                 break;
             }
