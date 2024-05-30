@@ -97,7 +97,7 @@ public class PhongsavanhMongkhonvilayProject05 {
             String loop = input.next();
 
             //statement to exit do-while loop
-            if(loop.equalsIgnoreCase("N")){
+            if("N".equalsIgnoreCase(loop)){
                 System.out.println("Goodbye.");
                 break;
             }

@@ -89,7 +89,7 @@ public class PhongsavanhMongkhonvilayProject06 {
             String answer = input.next();
 
             //if user enters n, loop exits
-            if(answer.equalsIgnoreCase("N")){
+            if("N".equalsIgnoreCase(answer)){
                 System.out.println("Goodbye.");
                 break;
             }
